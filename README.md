@@ -1,1 +1,3 @@
-# duncanfenning93.github.io
+### Git pages - DuncanFenning93
+
+Repo for my personal website.

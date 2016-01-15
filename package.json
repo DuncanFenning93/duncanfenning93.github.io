@@ -1,0 +1,24 @@
+
+{
+  "name": "duncanfenning93.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "serve",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/duncanfenning93/duncanfenning93.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/duncanfenning93/duncanfenning93.github.io/issues"
+  },
+  "homepage": "https://github.com/duncanfenning93/duncanfenning93.github.io#readme",
+  "devDependencies": {
+    "serve": "^1.4.0"
+  }
+}
