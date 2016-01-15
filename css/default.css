@@ -20,6 +20,15 @@ a {
   color: #fff;
 }
 
+p {
+  padding: 10px;
+}
+
+header > div.hero {
+  font-size: 30px;
+  display: inline-block;
+}
+
 header, footer {
   margin: 20px 0;
   padding: 20px 0;
@@ -27,14 +36,14 @@ header, footer {
 
 header > div.hero, div.info, ul.contact {
   color: #fff;
-  list-style: none;
 }
 
 header > img.profile {
   border-radius: 50%;
+  display: block;
   float: right;
-  height: 5em;
-  width: 5em;
+  height: 6em;
+  width: 6em;
 }
 
 footer > ul.contact {
@@ -43,3 +52,19 @@ footer > ul.contact {
   padding: 0;
   font-size: 50pt;
 }
+
+footer > ul.contact > li {
+  display: inline-block;
+}
+
+@media screen and (max-width: 700px) {
+  header > img.profile {
+    display: none;
+  }
+}
+
+
+@media screen and (max-width: 1200px) {
+  div.container {
+    width: 100%;
+  }
